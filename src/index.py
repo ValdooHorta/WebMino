@@ -12,7 +12,7 @@ def about_test():
     return "About Page"
 
 # Routes to Render Something
-@app.route('/')
+@app.route('/home')
 def home():
     return render_template("home.html")
 
